@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": ["Oi", "Olá", "E aí"],
+      "responses": ["Oi! Tudo bem?", "Olá! Como você está?"]
+    },
+    {
+      "tag": "ia",
+      "patterns": ["O que é inteligência artificial?", "Explique IA", "Como funciona IA?"],
+      "responses": ["Inteligência Artificial é ...", "IA é uma área da ciência que ..."]
+    },
+    {
+      "tag": "analise_dados",
+      "patterns": ["Como faço análise de dados?", "Análise de dados", "Explicar análise de dados"],
+      "responses": ["Análise de dados envolve ...", "Você pode começar estudando Python, Pandas e Matplotlib ..."]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["Desculpe, não entendi.", "Pode reformular sua pergunta?"]
+    }
+  ]
+}
