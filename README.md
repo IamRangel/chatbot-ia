@@ -43,7 +43,7 @@ cd chatbot-ia
 
 3. Crie o ambiente virtual e ative:
 python -m venv .venv
-.venv\Scripts\activate  # Windows
+.venv\Scripts\activate  
 
 4. Instale as dependências:
 pip install -r requirements.txt
